@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+@font-face {
+	font-family: "MADE The Artist Script";
+	src: url("../fonts/MADETheArtistScript.woff2") format("woff2"),
+		 url("../fonts/MADETheArtistScript.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+div{
+	color:gray;
+}
+
+a{
+	color: aqua;
+	font-family: "ChristmasScriptC", fantasy;
+	font-size: 50px;
+}
+
+.text{
+	color: blue;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#top2{
+	color: blueviolet;
+	text-decoration: line-through;
+}
+
+div.red{
+	color: red;
+	font-family: 'Mulish', sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 1px 1px 1px black, 5px -10px 1px gray;
+	box-sizing: border-box ;
+}
+
+.text.black{
+	color: black;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.top,
+.end{
+	color:brown;
+	font-family: 'Mulish', sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.text1 p{
+	color:green;
+	font-family: 'Mulish', sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: 800;
+}
+
+.text2 .lesson{
+	color: yellowgreen;
+	font-family: 'Mulish', sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 900;
+}
+
+.text2 *{
+	color: blue;
+}
+
+.text3>p{
+	color: coral;
+}
+
+.text3~p{
+	color: teal
+}
+
+.text3+p{
+	color: gold;
+}
+
+.text5{
+	font-family: "MADE The Artist Script", fantasy;
+	color: black;
+	font-size: 50px;
+	font-weight: 200;
+}
+
+.text6{
+	text-align: right;
+	text-transform: lowercase;
+}
+
+.list{
+	font-family: 'Mulish', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 800;
+	color: black;
+	text-transform: uppercase;
+	line-height: 1.5;
+	padding: 20px;
+}
+
+.big-list{
+	text-indent: 50px;
+	letter-spacing: 2px;
+	white-space: nowrap;
+	word-spacing: 20px;
+}
+.top{
+	margin: 50px;
+	width: 50px;
+}
+
+img{
+	height: 100%;
+	width: auto;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "ChristmasScriptC";
+    src: url("../fonts/ChristmasScriptC.woff2") format("woff2"),
+        url("../ChristmasScriptC.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
